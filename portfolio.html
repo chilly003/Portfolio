@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- 구글 폰트 matemasie-regular -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+    <!-- 구글 폰트 roboto-condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,427;1,427&display=swap" rel="stylesheet">
+
+    <!-- 구글 폰트 bebas-neue-regular -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fon ts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- 연결 css(cdn 보다 아래로 위치) -->
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary matemasie-regular pt-2 pb-2 mb-2">
+        <div class="container-fluid ">
+          <div class="d-flex justify-content-start">
+          <a class="navbar-brand fs-4" href="#intro">NOW LODING..</a>
+            <div class="spinner-border mt-2" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mx-2 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#intro">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#activity">Activity</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#now">Now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#goal">Goal</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  know more
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Knowmore">Email</a></li>
+                  <li><a class="dropdown-item" href="#Knowmore">Address</a></li>
+                  <li><a class="dropdown-item" href="#Knowmore">Git</a></li>
+                  <li><a class="dropdown-item" href="#Knowmore">Blog</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main class="container">
+      <div class="row">
+        <div class="col-12 p-3">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <section class="intro container mb-5" id="intro">
+              <div class="row">
+
+                <p class="fs-1 matemasie-regular text-center col-12 p-3">Intro👀</p>
+                <p class="fw-bold fst-italic roboto-condensed text-center script col-12">You forget what you heard, remember what you saw, and understand what you did yourself. -Confucius-</p>
+                <div class="col-12 col-md-5">
+                    <div class="row">
+                        <img src="./증명사진.jpg" alt="pic" style="border-radius: 20px;" class=" script">
+                        <p class="fs-1 fw-bold  roboto-condensed text-center  script p-3 mt-3">JUNG HYO WON</p>
+                    </div>
+                </div>
+                
+                <div class="accordion col-12 col-md-7" id="accordionPanelsStayOpenExample"  >
+                        <div class="accordion-item border border-dark" style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                          <h2 class="accordion-header ">
+                            <button class="accordion-button fs-1 border bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                             Birthday🍰
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body row">
+                                <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                    <img src="./birthday-12378_256.gif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">🎈When I was 5 years old..</p>
+                                    </div>
+                                  </div>
+                                <p class="roboto-condensed p-3 fs-5">I was born on March 7, 2001, in the warm spring. I was born next to the church, but my name was given by a Buddhist monk.<br><br>"JUNG" is my family name, "HYO" means dawn, and "WON" means mountain.<br><br> Simply put, it means to be a new hope like dawn rising from the top of a mountain.</p>
+                          </div>
+                        </div>
+                        <div class="accordion-item border border-dark " style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-1 bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Hobby🕹️
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body row">
+                                <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                    <img src="./night-12128_256.gif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">🎈I realy like play video games.</p>
+                                    </div>
+                                  </div>
+                                <p class="roboto-condensed  p-3 fs-5">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                        <div class="accordion-item border border-dark" style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-1 bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Specialty💡
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body row">
+                                <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                    <img src="./pixel-art-12601_256.gif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                  </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                </div>
+              </div>
+              </div>
+            </section>
+            <hr class="mb-5">
+            <p class="fs-1 matemasie-regular text-center p-3 mb-5">Activity</p>
+            <section class="activity container" id="activity" >
+              <div class="row">
+                <div class="card col-md-5 mb-4" style=" box-shadow: 3px 5px 4px rgb(212, 212, 212);" >
+                    <img src="./location-13722_256.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                <p class="fs-1 roboto-condensed text-center script mx-md-3 col-md-6 p-3 mb-4">Activity</p>
+                <div class="card col-md-5 mb-4" style=" box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./icons-1151_256.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                <p class="fs-1 roboto-condensed text-center script mx-md-3 col-md-6 p-3 mb-4">Activity</p>
+                <div class="card col-md-5 mb-4" style=" box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./walking-11968_256.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                <p class="fs-1 roboto-condensed text-center script mx-md-3 col-md-6 p-3 mb-4">Activity</p>
+            </section>
+          </div>
+            <hr class="mt-5 mb-5">
+            <p class="fs-1 matemasie-regular text-center p-3 mb-5">Know</p>
+            <section class="now row" id="now">
+                <div class="accordion " id="accordionPanelsStayOpenExample"  >
+                    <div class="accordion-item border border-dark" style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                      <h2 class="accordion-header ">
+                        <button class="accordion-button fs-1 border bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          In SSAFY..
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body row">
+                            <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                <img src="./pixel-art-13575_256.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                            <p class="roboto-condensed col-8 p-3 fs-5">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item border border-dark " style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-1 bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          In HOME..
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body row">
+                            <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                <img src="./pixel-art-12824_256.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                            <p class="roboto-condensed col-8 p-3 fs-5">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item border border-dark" style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-1 bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          How I do..
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body row">
+                            <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                <img src="./walking-11968_256.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                            <p class="roboto-condensed col-8 p-3 fs-5">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <hr class="mt-5 mb-5">
+            <p class="fs-1 matemasie-regular text-center p-3 mb-5">Goal</p>
+            <section class="goal row" id="goal">   
+                <div class="accordion " id="accordionPanelsStayOpenExample"  >
+                    <div class="accordion-item border border-dark" style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                      <h2 class="accordion-header ">
+                        <button class="accordion-button fs-1 border bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          I Will..
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body row">
+                            <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                <img src="./pixel-art-13575_256.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                            <p class="roboto-condensed col-8 p-3 fs-5">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item border border-dark " style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-1 bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          MY Goal..
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body row">
+                            <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                <img src="./pixel-art-12824_256.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                            <p class="roboto-condensed col-8 p-3 fs-5">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item border border-dark" style="box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-1 bg-light roboto-condensed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          How..
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body row">
+                            <div class="card col-3 mx-4 mb-4" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                                <img src="./walking-11968_256.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">🎈Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                      </div>
+                    </div>
+                  </div>
+            </section> 
+
+            <hr class="mt-5 mb-5">
+
+            <section class="Knowmore container" id="Knowmore">
+                <p class="fs-1 matemasie-regular text-center col-12 p-3">Know more</p>
+            <div class="row bebas-neue-regular">
+                <div class="card m-3 " style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./free-icon-participation-6449408.png" class="card-img-top" alt="social">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Project link</a>
+                    </div>
+                </div>
+
+                <div class="card m-3 " style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./free-icon-address-7509052.png" class="card-img-top" alt="social">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Address link</a>
+                    </div>
+                </div>
+
+                <div class="card cod m-3 " style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./다운로드.png"  class="card-img-top" alt="social">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Git hub link</a>
+                    </div>
+                </div>
+
+                <div class="card cod m-3" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./free-icon-smartphone-call-15874.png" class="card-img-top" alt="social">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Phone link</a>
+                    </div>
+                </div>
+
+                <div class="card cod m-3" style="width: 18rem; box-shadow: 3px 5px 4px rgb(212, 212, 212);">
+                    <img src="./df.png" class="card-img-top" alt="social">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Blog link</a>
+                    </div>
+                </div>
+            </div>
+            </section> 
+
+            <hr class="mt-5 mb-5">
+          </div>
+        </div>
+
+        <div class="offset-10 col-1 mt-5 bebas-neue-regular sticky-top" style="">
+            <div id="" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#intro">Intro</a>
+                <a class="list-group-item list-group-item-action" href="#activity">Activity</a>
+                <a class="list-group-item list-group-item-action" href="#now">Now</a>
+                <a class="list-group-item list-group-item-action" href="#goal">Goal</a>
+                <a class="list-group-item list-group-item-action" href="#Knowmore">Know more</a>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="roboto-condensed text-center text-center mt-auto py-3 mt-5">
+        &copy; Designed and built by me(JUNG HYO WON) Thanks for the help of our Group.
+        Code licensed JUNG HYO WON,
+        Currently v1.0.0.
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
